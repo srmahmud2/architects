@@ -1,0 +1,396 @@
+/*----------------------------------------------     
+    CSS INDEX
+    ===================
+	1. Defaults
+	2. Welcome area
+	3. Quick list area
+	4. Feature area
+	5. Facts area
+	6. Services area
+	7. Sponsors area
+	8. Footer area
+    	
+---------------------------------------------------*/
+/*-------------------------------------------------*/
+/*    1.    Defaults
+/*-------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Work Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #131313;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0 0 25px;
+}
+img {
+  max-width: 100%;
+}
+a {
+  color: #ff900e;
+  text-decoration: none;
+}
+a:hover {
+  color: #fc4755;
+  text-decoration: none;
+}
+
+a:focus {
+  color: #fc4755;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+h2.section-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+}
+.btn {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  border: 0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  display: inline-block;
+}
+.btn-yellow {
+  background: #ff900e;
+  color: #fff;
+}
+.btn-yellow:hover,
+.btn-yellow:focus,
+.btn-yellow:active {
+  background: #fc4755;
+  color: #fff;
+}
+
+/*-------------------------------------------------*/
+/*    1.    Welcome area
+/*-------------------------------------------------*/
+/* nav styles */
+.header-area {
+  background-color: #fff4e7;
+}
+.section.header-area {
+  padding-top: 50px;
+}
+.header-area .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+ul.main-nav li {
+  list-style: none;
+}
+
+ul.main-nav li a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #424242;
+  max-block-size: 80px;
+  padding: 9px;
+  margin: 9px;
+  border-radius: 5px;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+ul.main-nav li a:hover,
+ul.main-nav li a:active,
+ul.main-nav li a:focus {
+  color: #fff;
+  background-color: #ff900e;
+}
+/* welcome styles */
+.welcome-area {
+  background-color: #fff4e7;
+  padding-top: 100px;
+}
+.welcome-area .container {
+  text-align: center;
+}
+.welcome-text {
+  max-width: 862px;
+  margin: 0 auto;
+}
+.welcome-text h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  white-space: pre-line;
+}
+.welcome-area img {
+  margin-top: 50px;
+  border-radius: 8px;
+  margin-bottom: 45px;
+}
+/*-------------------------------------------------*/
+/*    3.    Quick List area
+/*-------------------------------------------------*/
+.section.list-area {
+  margin-top: 85px;
+}
+.list-area .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 75px;
+  align-items: center;
+}
+.list-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 24px;
+}
+.list-images img {
+  border-radius: 8px;
+}
+
+.list-text h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+}
+span.grey {
+  font-weight: 500;
+  color: #727272;
+}
+span.yellow {
+  color: #ff900e;
+}
+
+/*-------------------------------------------------*/
+/*    4.    Feature area
+/*-------------------------------------------------*/
+.section.feature-area {
+  margin-top: 130px;
+}
+.feature-area .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 115px;
+}
+.feature-text-area h2 {
+  white-space: break-spaces;
+  padding-left: 21px;
+  border-left: 5px solid #ff900e;
+  margin-bottom: 24px;
+}
+.feature-text-area p {
+  margin-bottom: 30px;
+}
+.lovely-feature {
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.lovely-feature h4 {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+}
+.lovely-feature p {
+  margin-bottom: 0;
+}
+.feature-img-area {
+  position: relative;
+}
+.feature-img-area .btn p {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 70px;
+  margin-bottom: 0;
+}
+.feature-img-area .btn {
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: -90px;
+  padding: 45px;
+}
+/*-------------------------------------------------*/
+/*    5.    Facts area
+/*-------------------------------------------------*/
+.section.facts-area {
+  margin-top: 130px;
+}
+.section-description {
+  max-width: 540px;
+}
+.fact-items {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-around;
+}
+.fact-item {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 35px;
+  text-align: center;
+  height: 170px;
+  width: 170px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  -moz-transition: all 02s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+.fact-item img {
+  margin-bottom: 10px;
+}
+.fact-item h3 {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 53px;
+  color: #424242;
+  margin-bottom: 5px;
+}
+.fact-item p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 0;
+}
+.fact-item:hover {
+  background-color: #ff900e;
+  color: #fff;
+}
+.fact-item:hover h3 {
+  color: #fff;
+}
+/*-------------------------------------------------*/
+/*    6.    Services area
+/*-------------------------------------------------*/
+.section.services-area {
+  margin-top: 130px;
+}
+.service-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  justify-content: space-around;
+  border-radius: 8px;
+}
+.service-item {
+  -moz-transition: all 04s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+.service-item img {
+  width: 100%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  -moz-transition: all 04s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.service-item:hover img {
+  margin-top: -10px;
+}
+.service-text {
+  border: 1px solid #ff900e;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  text-align: center;
+  padding: 15px;
+  min-height: 173px;
+}
+.service-text h3 {
+  font-size: 32px;
+  line-height: 39px;
+  font-weight: 700;
+}
+
+/*-------------------------------------------------*/
+/*    7.    Sponsor area
+/*-------------------------------------------------*/
+.section.sponsor-area {
+  margin-top: 130px;
+  text-align: center;
+}
+.sponsor-area p.section-description {
+  margin: 0 auto;
+}
+.sponsor-logos {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/*-------------------------------------------------*/
+/*    8.    Footer area
+/*-------------------------------------------------*/
+.section.footer-area {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+.footer-area .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff4e7;
+  border-radius: 8px;
+  padding: 40px;
+}
+.footer-area p {
+  margin-bottom: 0;
+}
